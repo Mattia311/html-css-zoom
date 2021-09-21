@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="site_header clearfix">
+        <div class="site_header clearfix flex">
             <div class="bottoni ">
                 <button class="botton-red"></button>
                 <button class="botton-yellow"></button>
@@ -25,9 +25,9 @@
         </div>
     </header>
     <!-- /header -->
-    <main class="site_main">
+    <main class="site_main ">
         <div class="button-main"> 
-            <button class="botton-speaker">Speaker View</button>
+            <button class="botton-speaker"><img class="img-zoom" src="https://assets.zoom.us/generic-images/common-buttons-and-icons/filled/speaker-view-button.png" alt=""> Speaker View</button>
             <button class="botton-arrow"><i class="fas fa-expand-arrows-alt"></i></button>
         </div>
         <div class="table clearfix">
@@ -157,19 +157,71 @@
         <div class="site_footer flex"> 
             <div class="call flex">
                 <div class="mute">
-                    <i class="fas fa-microphone fa-2x"></i>
-                    <p>Mute</p>
+                    <div class="icon icon1">
+                        <i class="fas fa-microphone fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="p-footer footer1">Mute</p>
                 </div>
-                <i class="fas fa-angle-up"></i>
                 <div class="stop-video">
-                    <i class="fas fa-video fa-2x"></i>
-                    <p>Stop Video</p>
-
+                    <div class="icon icon2">
+                        <i class="fas fa-video fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-up"></i>
+                    </div>
+                    <p class="p-footer footer2">Stop Video</p>
                 </div>
-                <i class="fas fa-angle-up"></i>
             </div>
-            <div class="info"></div>
-            <div class="exit"></div>
+            <div class="info flex">
+                <div>
+                    <div class="icon icon3">
+                        <i class="fas fa-user fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer3">invite</p>
+                </div>
+                <div>
+                    <div class="icon icon4">
+                        <i class="fas fa-user-friends fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer4">manage partecipants</p>
+                </div>
+                <div>
+                    <div class="icon icon5">
+                        <i class="fas fa-poll fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer5">Polling</p>
+                </div>
+                <div>
+                    <div class="icon icon6">
+                        <i class="far fa-share-square fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <p class="p-footer footer6">Share Screen</p>
+                </div>
+                <div>
+                    <div class="icon icon7">
+                        <i class="far fa-comment-dots fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer7">Chat</p>
+                </div>
+                <div>
+                    <div class="icon icon8">
+                        <i class="fas fa-record-vinyl fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer8">Record</p>
+                </div>
+                <div>
+                    <div class="icon icon9">
+                        <i class="fab fa-windows fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer9">Breakout Rooms</p>
+                </div>
+                <div>
+                    <div class="icon icon10">
+                        <i class="far fa-comment-dots fa-2x"></i>
+                    </div>
+                    <p class="p-footer footer9">More</p>
+                </div>
+            </div>
+            <div class="exit flex">
+                <p class="p-footer footer10">End Meeting</p>
+            </div>
 
         </div>
     </footer>
