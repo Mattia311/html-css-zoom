@@ -87,7 +87,77 @@
     border-radius: 10px;
     background: #292929;
     vertical-align: middle;
+    color: white;
 }
 .button-main {
     padding-top: 10px;
+    margin-left: 1240px;
+}
+.colon-arrow-left {
+    color: gray;
+    float: left;
+    width: 5%;
+    
+}
+.colon-arrow-right {
+    color: #39BBFC;
+    float: left;
+    width: 5%;
+    
+}
+.colon-immage1 {
+    flex-direction: column;
+    float: left;
+    width: 18%;
+    position: relative;
+}
+.colon-immage2 {
+    flex-direction: column;
+    float: left;
+    width: 18%;
+}
+.colon-immage3 {
+    flex-direction: column;
+    float: left;
+    width: 18%;
+}
+.colon-immage4 {
+    flex-direction: column;
+    float: left;
+    width: 18%;
+}
+.colon-immage5 {
+    flex-direction: column;
+    float: left;
+    width: 18%;
+}
+.img1 {
+    width: 245px;
+    height: 127px;
+    margin-top: 7px;
+}
+.table {
+    margin-top: 13px;
+}
+.text {
+    color: white;
+    padding-left: 20px;
+}
+
+.arrow-left {
+    padding-top: 311px;
+    padding-left: 15px;
+}
+.arrow-right {
+    padding-top: 311px;
+    padding-left: 22px;
+}
+.microphon {
+    position: absolute;
+    color: white;
+    width: 108px;
+    background: #00000091;
+    margin-top: -22px;
+    height: 18px;
+    font-size: 14px;
 }
