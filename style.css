@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.site_header {
+    background-color: #DFE0DF;
+    height: 30px;
+    width: 100%;
+}
+.bottoni {
+    width: 20%;
+    flex-direction: row;
+    display: inline;
+    float: left;
+}
+.botton-red {
+    width: 15px;
+    height: 15px;
+    background-color: #FC605C;
+    border-radius: 50%;
+    border:1px solid #E24B49;
+    margin: 6px 3px;
+}
+.botton-yellow {
+    width: 15px;
+    height: 15px;
+    background-color: #FDBC40;
+    border-radius: 50%;
+    border: 1px solid #EBAC3A;
+    margin: 6px 3px;
+}
+.botton-green {
+    width: 15px;
+    height: 15px;
+    background-color: #33C84A;
+    border-radius: 50%;
+    border: 1px solid #3FBA51;
+    margin: 6px 3px;
+}
+.id-meeting {
+    float: left;
+    width: 80%;
+    padding-left: 250px;
+    margin-top: 4px;
+    color: #434448;
+    font-size: 17px;
+}
+.flex {
+    display: flex;
+}
+.botton-grey {
+    width: 200px;
+    height: 17px;
+    border: none;
+    background: white;
+    
+}
+.botton-grey-dentro {
+    width: 30px;
+    height: 3px;
+}
+.site_main {
+    background: black;
+    width: 100%;
+    height: 800px;
+}
+.botton-speaker {
+    width: 130px;
+    height: 30px;
+    background: #292929;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.botton-arrow {
+    width:45px ;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #292929;
+    vertical-align: middle;
+}
+.button-main {
+    padding-top: 10px;
+}
